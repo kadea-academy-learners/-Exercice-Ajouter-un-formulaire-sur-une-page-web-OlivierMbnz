@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html id="content" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> My form</title>     
+    </head>
+    <body>
+        <form method="get" action="post">
+            <div>
+                <label for="firstname">First Name:</label><br>
+                <input type="text" name="firstname" id="firstname">
+            </div>            
+            <div>
+                <label for="lastname">Last Name:</label><br>
+                <input type="text" name="lastname" id="lastname">
+            </div>         
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" name="email" id="email">
+            </div>
+            <div>
+                <label for="password">Password:</label><br>
+                <input type="password" name="password" id="password">
+            </div>
+            <div>
+                <label for="gender">Gender:</label><br>
+                <input type="radio" name="gender" id="male"> Male<br>
+                <input type="radio" name="gender" id="female"> Female<br>
+                <input type="radio" name="gender" id="other"> Other
+            </div>
+            <div>
+                <label for="dateofbirth">Date of Birth:</label><br>
+                <input type="date" name="password" id="dateofbirth">
+            </div>                          
+            <div>
+                <label for="website">Website:</label><br>
+                <input type="url" name="website" id="website">            
+            </div>
+            <div> 
+                <label for="country">Country:</label><br>
+                <select name="country" id="country">
+                    <option value="usa">CANADA</option>
+                    <option value="usa">UK</option>
+                    <option value="usa" selected>USA</option>
+                </select>
+            </div> 
+            <div>
+                <label for="message">Message:</label><br>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <div>
+                <input type="submit" name="submit" id="submit" value="submit">
+            </div>
+        </form>
+        <hr>
+        <footer>
+            <div>
+                <button>
+                    <a href="#content" id="up-button"></a>Retour en haut
+                </button>
+            </div>
+        </footer>
+    </body>
+</html>
